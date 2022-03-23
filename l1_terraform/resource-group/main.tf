@@ -20,4 +20,10 @@ resource "azurerm_resource_group" "data_plane_rg-3" {
   tags = {"Environment" : "demo-tag-value"}
 }
 
+resource "azurerm_resource_group" "data_plane_rg-4" {
+  name = "my-demo-rg-4"
+  location = "East US 2"
+  tags = {"Environment" : "demo-tag-value"}
+}
+
 ###
